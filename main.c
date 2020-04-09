@@ -6,7 +6,7 @@
 #define MAX_PLAYER_SIZE     10
 #define MAX_PLAYER_NAME_SIZE    20
 #define MAX_FORFEIT_SIZE        200
-#define MAX_FORFEIT_TEXT_SIZE   100
+#define MAX_FORFEIT_TEXT_SIZE   200
 
 void shuffle(int *array, size_t n);
 
