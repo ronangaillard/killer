@@ -63,14 +63,15 @@ int main() {
     // Shuffle the array to randomize forfeits
     shuffle(forfeitAssignment, numberOfForfeits);
 
-    // For debug only, will print who kills who
-    /*for(i = 0; i < numberOfPlayers; i++) {
-        printf("%s must kill %s\n", players[playersVictim[i]], players[playersVictim[i + 1]]);
-        printf("%s must [ %s ] in order to kill\n", players[playersVictim[i]], forfeits[forfeitAssignment[playersVictim[i]]]);
+    // Save game rules to txt file
+    file = fopen("lastgameinfo.txt", "w");
+
+    for(i = 0; i < numberOfPlayers; i++) {
+        fprintf(file, "%s must kill %s\n", players[playersVictim[i]], players[playersVictim[i + 1]]);
+        fprintf(file, "%s must [ %s ] in order to kill\n", players[playersVictim[i]], forfeits[forfeitAssignment[playersVictim[i]]]);
     }
 
-    getchar();
-    */
+    fclose(file);
 
     int playerNumber = 0;
 
