@@ -1,6 +1,6 @@
 # Killer
 
-This is a basic and dirty implementation Killer (Assassin) helper.
+This is a basic and dirty Killer (Assassin) helper.
 
 ## Building
 
