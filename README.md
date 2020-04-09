@@ -10,7 +10,7 @@ This is a basic and dirty implementation Killer (Assassin) helper.
 
 Put the name of each player on a new line in `names.txt`.
 
-Some forfeits are already filled in `forfeits.txt` but fill free to add plenty. (one per line).
+Some forfeits are already filled in `forfeits.txt` but feel free to add plenty. (one per line).
 
 ## Running
 
