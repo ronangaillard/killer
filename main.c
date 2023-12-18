@@ -3,7 +3,7 @@
 #include <sys/time.h>
 #include <string.h>
 
-#define MAX_PLAYER_SIZE     10
+#define MAX_PLAYER_SIZE     20
 #define MAX_PLAYER_NAME_SIZE    20
 #define MAX_FORFEIT_SIZE        200
 #define MAX_FORFEIT_TEXT_SIZE   200
